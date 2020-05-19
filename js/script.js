@@ -4,7 +4,7 @@ var eta = prompt('Inserisci il tuo cognome');
 var colore = prompt('Inserisci il tuo colore preferito');
 
 // Testo Da Visualizzare Una Volta Inserite Le Info //
-var password = 'Benvenuto ' + nome + eta + colore + ' 19. ' ;
+var password = 'Benvenuto ' + nome + eta + colore + '19. ' ;
 document.getElementById('password').innerHTML = password;
 
 //console.log(password);//
